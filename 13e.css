@@ -1,0 +1,61 @@
+.inbox{
+    width:550px;
+    border-radius: 5px;
+    
+    padding-top:13px;
+    padding-left: 22px;
+    padding-bottom: 43px;
+    box-shadow: 0px 0px 5px 1.5px rgba(0,0,0,0.15);
+
+}
+.message{
+    margin-top:25px;
+    display:flex;
+    align-items: center;
+}
+.message-details{
+    width:450px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    font-family: Arial;
+    margin:0;
+}
+img{
+    width: 65px;
+    height: 65px;
+    border-radius: 30px;
+}
+.section-label,.message-content,.message-time{
+    color:gray;
+}
+.message-author,.message-header{
+    font-weight:bolder;
+}
+.section-label{
+    font-size:19px;
+}
+.message-time{
+    font-size: 18px;
+}
+.message-author{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.message-header{
+    margin-bottom: 5px;
+}
+
+.message-header, .message-content{
+    font-size: 21px;
+}
+
+
+
